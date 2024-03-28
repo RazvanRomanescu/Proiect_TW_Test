@@ -1,0 +1,19 @@
+.page-footer {
+    text-align: center;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    margin-bottom: 0;
+  }
+  .page-footer h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .page-footer .footer-logo,
+  .page-footer a {
+    color: var(--primary-500);
+  }

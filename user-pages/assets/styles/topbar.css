@@ -1,0 +1,133 @@
+.btn {
+    cursor: pointer;
+    color: var(--white);
+    background: var(--primary-500);
+    border: transparent;
+    border-radius: 8px;
+    letter-spacing: var(--letterSpacing);
+    padding: 5px 15px;
+    transition: var(--transtion);
+    text-transform: capitalize;
+    display: inline-block;
+  }
+  
+  .btn:hover {
+    background: var(--primary-700);
+  }
+  
+  .btn-hipster {
+    color: var(--primary-500);
+    background: var(--primary-200);
+  }
+  
+  .btn-hipster:hover {
+    color: var(--primary-200);
+    background: var(--primary-700);
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-center {
+    width: 90vw;
+    max-width: var(--max-width);
+  }
+  
+  .nav-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-header img {
+    width: 200px;
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .nav-btn {
+    padding: 5px 15px;;
+  }
+  
+  .nav-btn i {
+    font-size: 20px;
+  }
+  
+  .nav-links {
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: var(--transition);
+  }
+  
+  .show-links {
+    height: 390px;
+  }
+  
+  .nav-link {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--grey-900);
+    letter-spacing: var(--letterSpacing);
+    padding: 16px 0;
+    border-top: 1px solid var(--grey-500);
+    transition: var(--transition);
+  }
+  
+  .nav-link:hover {
+    color: var(--primary-500);
+  }
+  
+  
+  @media screen and (min-width: 600px) {
+    .navbar {
+      height: 60px;
+    }
+    .nav-center {
+      display: flex;
+      align-items: center;
+    }
+    .nav-header {
+      padding: 0;
+      margin-right: 35px;
+      height: auto;
+    }
+  
+    .nav-btn {
+      display: none;
+    }
+    .nav-links {
+      height: auto !important;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+    }
+    .nav-link {
+      padding: 0;
+      border-top: none;
+      margin-right: 16px;
+      font-size: 16px;
+    }
+    .contact-link {
+      margin-right: 0;
+      margin-left: auto;
+    }
+    .topbar-text{
+      margin-right: 0;
+      margin-left: auto;
+    }
+  }

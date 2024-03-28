@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="author" content="Razvy&Roby">
+  <meta name="description"
+    content="This site will help an user manage his culinary preferences by allowing him to create a shopping list which he'll be able to download as CSV or PDF">
+  <meta name="keywords" content="Foods">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/styles/core.css">
+  <link rel="stylesheet" href="./assets/styles/footer.css">
+  <link rel="stylesheet" href="./assets/styles/main.css">
+  <link rel="stylesheet" href="./assets/styles/topbar.css">
+  <link rel="stylesheet" href="./assets/styles/contact.css">
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="./assets/logo.svg" alt="Auto Park Smart Explorer" />
+        </a>
+        <button class="nav-btn btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <div class="nav-links">
+        <a href="about.html" class="nav-link"> About Us </a>
+            <a href="statistics.html" class="nav-link"> Statistics </a>
+            <a href="contact.html" class="nav-link"> Contact </a>
+
+        <div class="nav-link contact-link">
+          <a href="signup.html" class="btn"> Login/Sign Up </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main id="content">
+
+    <form >
+      <label>First name:
+        <input type="text" id="fname" name="fname">
+      </label>
+      <label>Last name:
+        <input type="text" id="lname" name="lname">
+      </label>
+      <label> Message:
+        <textarea></textarea>
+      </label>
+      <input type="submit" value="Submit">
+    </form>
+
+  </main>
+
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">Auto Park Smart Explorer</span> Built by Razvan & Robert
+    </p>
+  </footer>
+  <script src="./assets/scripts/script.js" defer></script>
+  <script src="https://kit.fontawesome.com/fcadf71cfc.js" crossorigin="anonymous" defer></script>
+</body>
+
+</html>

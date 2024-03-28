@@ -1,0 +1,28 @@
+:root {
+    /* colors */
+    --primary-200: #c1beff;
+    --primary-500: #645cff;
+    --primary-700: #3c3799;
+  
+    /* grey */
+    --grey-500: #64748b;
+    --grey-900: #0f172a;
+  
+    /* rest of the vars */
+    --letterSpacing: 1px;
+    --transition: 0.3s ease-in-out all;
+    --max-width: 1120px;
+    --fixed-width: 600px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: white;
+  }
