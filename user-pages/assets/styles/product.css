@@ -1,0 +1,28 @@
+.sidebar{
+    max-width:150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: groove;
+    border-color: var(--primary-500);
+    border-radius:15px;
+    margin-top: 5px;
+}
+
+.checkbox-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-container label{
+    margin-top: 3px;
+}
+
+.card .product-card{
+    margin-left: 60px;
+}
